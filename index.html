@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Yamaha Survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div id="header">
+            <h1>Yamaha Survey</h1>
+            <div id="progress-container">
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+                <span id="question-number"></span>
+            </div>
+        </div>
+        <div id="content">
+            <div id="question"></div>
+            <div id="choices"></div>
+            <div id="timer"></div>
+        </div>
+        <div id="footer">
+            <button id="submit">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

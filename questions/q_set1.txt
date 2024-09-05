@@ -1,0 +1,6 @@
+q|choices|timeLimit|multipleChoice|randomizeOrder|type
+Usia|Under 18;18-30;31-50;Over 50|0|false|false|choice
+Gender|Pria;Wanita;Prefer not to say|0|false|false|choice
+Saat mendengar brand Yamaha-apa yang terbesit di otak Anda?|SemakinDiDepan;Valentino Rossi;MotoGP;NMax;Aerox;Big Matic;Piano;Ngebut;Reliable;Bengkel|3|true|true|choice
+Apakah punya motor Yamaha?|Punya;Tidak|0|false|false|choice
+Berikan saran Anda untuk Yamaha||0|false|false|text
